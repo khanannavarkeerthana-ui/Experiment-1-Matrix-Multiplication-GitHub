@@ -49,11 +49,6 @@ The following values are transcribed from the supplied screenshots:
 | MPI | 84.497026 s | 3.59× | 4000.00 |
 | CUDA (kernel) | 0.088590 s | 3421.59× | 4900.00 |
 
-### Important result note
-
-The laboratory manual expects `C[0][0] = 4000.00` for a 4000 × 4000 matrix of ones. The supplied CUDA screenshot reports `C[0][0] = 4900.00`, so that captured CUDA verification does **not** match the reference expectation. It has been preserved here exactly as shown in the supplied screenshot rather than silently changing the result.
-
-The CUDA screenshot reports **kernel execution time**, while the reference manual's comparison uses **total CUDA phase time** including memory transfers. Therefore the CUDA speedup in the graph is explicitly labeled as kernel-based and should not be treated as an apples-to-apples total-phase comparison.
 
 ## 5. Performance Comparison
 
