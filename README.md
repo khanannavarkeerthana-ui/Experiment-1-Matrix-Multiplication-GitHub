@@ -40,7 +40,7 @@ CUDA executes the matrix multiplication kernel on the GPU. The captured CUDA con
 
 ## 4. Captured Results
 
-The following values are transcribed from the supplied screenshots:
+
 
 | Implementation | Captured execution time | Speedup vs sequential | Captured verification |
 |---|---:|---:|---:|
@@ -78,7 +78,7 @@ For the captured runs:
 
 ## 7. Screenshots
 
-The original supplied screenshots have been renamed and organized according to the experiment stages.
+
 
 ### Sequential and OpenMP
 
