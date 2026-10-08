@@ -116,8 +116,7 @@ For the captured runs:
 1. OpenMP reduced the execution time substantially by distributing the outer-loop work among CPU threads.
 2. MPI also reduced execution time, but distributed-memory communication and VMware network overhead affected performance.
 3. CUDA produced the smallest captured kernel execution time.
-4. The same mathematical workload should produce `4000.00` when both 4000 × 4000 input matrices contain only 1.0 values.
-5. CUDA kernel time and total CUDA phase time represent different measurements, so they should be distinguished when reporting speedup.
+
 
 ## 9. Conclusion
 
